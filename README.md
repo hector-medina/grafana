@@ -119,7 +119,7 @@ metrics:
 
 En mi caso la instancia se llama `grafana`, pero puedes ponerle `servidor-de-multas` o `nginx` o `ocs_inventory_alzira`. Lo que quieras. Debe ser único, sino luego no se podrá filtrar bien. 
 
-EL agente ya estaría enviando logs y métricas a la nube.
+Por último, cada vez que modifiques el fichero `/etc/grafana-agent.yml` tienes que reiniciar el servicio de grafana con el comando `systemctl restart grafana-agent`. El agente ya estaría enviando logs y métricas a la nube.
 
 ## Uso.
 
