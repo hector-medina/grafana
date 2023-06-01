@@ -117,4 +117,16 @@ metrics:
   wal_directory: /tmp/grafana-agent-wal
 `````
 
+En mi caso la instancia se llama `grafana`, pero puedes ponerle `servidor-de-multas` o `nginx` o `ocs_inventory_alzira`. Lo que quieras. Debe ser único, sino luego no se podrá filtrar bien. 
+
+EL agente ya estaría enviando logs y métricas a la nube.
+
 ## Uso.
+
+Ahora para usarlo tienes que crear un dashboard. La integración te facilita todo esto, si le das al botón `Install dashboard and alerts` lo instalará. Para ver los dashboards tienes que usar el menú lateral `Dashboards` y seleccionar el que quieras. Por defecto se organizan en carpetas, pero puedes crear tus propias carpetas y tus propios dashboards con la información que te guste tener.
+
+![Captura de Pantalla 2023-06-01 a las 21 09 04](https://github.com/hector-medina/grafana/assets/76477956/35cf2512-fcad-4701-90a0-eeafb46968b6)
+
+## Alertas.
+
+Las alertas no las tengo muy claras aún, sorry. 
